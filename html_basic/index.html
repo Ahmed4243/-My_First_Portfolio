@@ -1,65 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <meta charset="utf-8" />
+  <title>Ahmed Ali - Personal Portfolio</title>
 </head>
 <body>
   <header>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="tweets.html">Tweets</a></li>
-    </ul>
+    <h1>Ahmed Ali</h1>
+    <p>Passionate software engineer and lifelong learner.</p>
   </header>
 
-  <main>
-    <article>
-      <h1>Portfolio</h1>
-      <p>Welcome to my portfolio website!</p>
-      <p><a href="tweets.html">See my tweets</a></p>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-      <!-- Table of learners -->
-      <table border="1" cellspacing="0" cellpadding="5">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Country</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>John</td>
-            <td>25</td>
-            <td>USA</td>
-          </tr>
-          <tr>
-            <td>Emily</td>
-            <td>28</td>
-            <td>Canada</td>
-          </tr>
-          <tr>
-            <td>Michael</td>
-            <td>32</td>
-            <td>Australia</td>
-          </tr>
-          <tr>
-            <td>Sophia</td>
-            <td>21</td>
-            <td>UK</td>
-          </tr>
-        </tbody>
-      </table>
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Hello! I'm Ahmed Ali, a software developer focused on creating impactful applications and constantly improving my skills.</p>
+  </section>
 
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal website showcasing my projects and skills using HTML, CSS, and JavaScript.</p>
+      <a href="https://github.com/Ahmed4243/My_First_Portfolio" target="_blank">View Project</a>
     </article>
-    <aside>
-      <p>placeholder to add comment thread later</p>
-    </aside>
-  </main>
+
+    <article class="project">
+      <h3>Weather App</h3>
+      <p>A web app providing real-time weather data using public APIs.</p>
+      <a href="https://github.com/Ahmed4243/weather-app" target="_blank">View Project</a>
+    </article>
+
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I have a background in computer science and enjoy solving complex problems. My skills include JavaScript, Python, and Git version control.</p>
+    <ul>
+      <li>Hobbies: Coding, gaming, hiking</li>
+      <li>Skills: Frontend development, problem-solving, teamwork</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:ahmed.ali@example.com">ahmed.ali@example.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/ahmed-ali-5a84a7118/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
+      <a href="https://github.com/Ahmed4243" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </section>
 
   <footer>
-    <p>Made by Ahmed Ali - <a href="https://github.com/YOUR_GITHUB" target="_blank">here</a>.</p>
+    <p>&copy; 2025 Ahmed Ali</p>
   </footer>
 </body>
 </html>
